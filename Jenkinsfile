@@ -4,7 +4,7 @@ agent any{
 
 	stages{
 		stage("Build"){
-			echo "This is build stage!"
+			echo "This is build stage to build deployable file"
 		}
 		
 		stage("Test"){
